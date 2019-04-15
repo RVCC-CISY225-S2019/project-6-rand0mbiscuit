@@ -1,275 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>About Me</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    <head>
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'       type='text/css'>
+        <link rel="stylesheet" href="nav-styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/nav-style.css">
-</head>
-
-<body>
-    <!-- skip link -->
-    <a href="#main" class="skip">Skip to main</a>
-    <!-- start of header -->
-    <header id="header" class="header">
-        <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i id="symbol-toggle" class="fas fa-bars"></i>
-            </span>
-            <a href="#header" class="logo">
-                <div class="logo-container">
-                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
-                    <h1 class="page-title">Web Dev I</h1>
+    </head>
+    <body>
+        <a href="#main" class="skip">Skip to main</a>
+            <header class="header">
+                <nav class="navbar">
+                    <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i id="symbol-toggle" class="fas fa-bars"></i>
+                    </span>
+                    <a href="#header" class="logo">
+                        <div class="logo-container">
+                            <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+                            <h1 class="page-title">Web Dev I</h1>
+                        </div>
+                    </a>
+                    <ul class="main-nav" id="js-menu">
+                        <li>
+                            <a href="#main" class="nav-links">Main</a>
+                        </li>
+                        <li>
+                            <a href="#about-me" class="nav-links">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#pictures" class="nav-links">My Photos</a>
+                        </li>
+                        <li>
+                            <a href="#story" class="nav-links">A Story</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-links">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        <main tabindex="-1" class="main">
+            <section class="hero">
+                <div class="content">
+                    <img class="my-picture" src="images/TheMan.jpg" alt="This is a picture of me">
+                    <p class="my-name">Michael Rivera</p>
+                    <p class="my-location">Branchburg, NJ</p>
                 </div>
-            </a>
-            <ul class="main-nav" id="js-menu">
-                <li>
-                    <a href="#main" class="nav-links">Main</a>
-                </li>
-                <li>
-                    <a href="#about-me" class="nav-links">About Me</a>
-                </li>
-                <li>
-                    <a href="#pictures" class="nav-links">My Photos</a>
-                </li>
-                <li>
-                    <a href="#story" class="nav-links">A Story</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-links">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- end of header -->
-    <!-- start of main content -->
-    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
-    <main id="main" tabindex="-1" class="main">
-        <!-- start of bio section -->
-        <section class="hero">
-            <div class="content">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/lk-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/lk-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/lk-small.jpg">
-                    <img class="profile" src="images/lk-xsmall.jpg" alt="This is a picture of me">
-                </picture>
-                <p class="my-name">Lyan Kent</p>
-                <p class="my-location">Branchburg, NJ</p>
-            </div>
-        </section>
-        <section id="about-me" class="about-me">
-            <div class="content">
-                <div class="about-content">
-                    <p class="iama">I want to be...</p>
-                    <p class="my-info">a web developer master!</p>
-                    <p class="iama">My favorite way to work is...</p>
-                    <p class="my-info">late at night with large headphones and lots of coffee.</p>
-                    <p class="iama">In my free time, I like to...</p>
-                    <p class="my-info">run through the park, read sci-fi novels, and redesign my personal site using
-                        whatever new tech I want to learn.</p>
+            </section>
+            <section class="about-me">
+                <div class="content">
+                    <div class="about-content">
+                        <p class="iama">I want to be...</p>
+                        <p class="my-info">the greatest LOL player alive, able to crumble my foes with ease.</p>
+                        <p class="iama">My favorite way to work is...</p>
+                        <p class="my-info">while destroying those who oppose me in LOL.</p>
+                        <p class="iama">In my free time, I like to...</p>
+                        <p class="my-info">cause those who are foolish enough to stand against me in LOL anguish.</p>
+                    </div>
                 </div>
+            </section>
+            <div class="back-to-top">
+                <a href="#">Back to Top</a>
             </div>
-        </section>
-        <!-- end of bio section -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <!-- start of photo gallery -->
-        <section id="pictures" class="gallery">
-            <h1 class="gallery-title">My Abstract Photo Gallery</h1>
-            <figure class="fig1">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-1a-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-1a-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-1a-small.jpg">
-                    <img src="images/fickle-1a-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 1</figcaption>
-            </figure>
-            <hr>
-            <figure class="fig2">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-5-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-5-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-5-small.jpg">
-                    <img src="images/fickle-5-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 5</figcaption>
-            </figure>
-            <hr>
-            <figure class="fig3">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-6-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-6-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-6-small.jpg">
-                    <img src="images/fickle-6-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 6</figcaption>
-            </figure>
-        </section>
-        <!-- end of photo gallery -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <hr class="mobile-first">
-        <!-- start of Sherlock Holmes story -->
-        <article id="story" class="story">
-            <h1>Sherlock Holmes</h1>
-            <p>I was very angry, for this was the third demand during the month. 'You shall not have a farthing from
-                me,' I cried, on which he bowed and left the room without another word.</p>
-
-            <p>When he was gone I unlocked my bureau, made sure that my treasure was safe, and locked it again. Then I
-                started to go round the house to see that all was secure--a duty which I usually leave to Mary but which
-                I thought it well to perform myself that night. As I came down the stairs I saw Mary herself at the side
-                window of the hall, which she closed and fastened as I approached.</p>
-
-            <p>'Tell me, dad,' said she, looking, I thought, a little disturbed, 'did you give Lucy, the maid, leave to
-                go out to-night?'</p>
-
-            <p>'Certainly not.'</p>
-
-            <p>'She came in just now by the back door. I have no doubt that she has only been to the side gate to see
-                someone, but I think that it is hardly safe and should be stopped.'</p>
-
-            <p>'You must speak to her in the morning, or I will if you prefer it. Are you sure that everything is
-                fastened?'</p>
-
-            <p>'Quite sure, dad.'</p>
-
-            <p>'Then, good-night.' I kissed her and went up to my bedroom again, where I was soon asleep.</p>
-
-            <p>I am endeavouring to tell you everything, Mr. Holmes, which may have any bearing upon the case, but I beg
-                that you will question me upon any point which I do not make clear."</p>
-
-            <p>On the contrary, your statement is singularly lucid."</p>
-
-            <p>I come to a part of my story now in which I should wish to be particularly so. I am not a very heavy
-                sleeper, and the anxiety in my mind tended, no doubt, to make me even less so than usual. About two in
-                the morning, then, I was awakened by some sound in the house. It had ceased ere I was wide awake, but it
-                had left an impression behind it as though a window had gently closed somewhere. I lay listening with
-                all my ears. Suddenly, to my horror, there was a distinct sound of footsteps moving softly in the next
-                room. I slipped out of bed, all palpitating with fear, and peeped round the corner of my dressing-room
-                door.</p>
-
-            <p>'Arthur!' I screamed, 'you villain! you thief! How dare you touch that coronet?'</p>
-
-            <p>The gas was half up, as I had left it, and my unhappy boy, dressed only in his shirt and trousers, was
-                standing beside the light, holding the coronet in his hands. He appeared to be wrenching at it, or
-                bending it with all his strength. At my cry he dropped it from his grasp and turned as pale as death. I
-                snatched it up and examined it. One of the gold corners, with three of the beryls in it, was missing.
-            </p>
-
-            <p>'You blackguard!' I shouted, beside myself with rage. 'You have destroyed it! You have dishonoured me
-                forever! Where are the jewels which you have stolen?'</p>
-
-            <p>'Stolen!' he cried.</p>
-
-            <p>'Yes, thief!' I roared, shaking him by the shoulder.</p>
-
-            <p>'There are none missing. There cannot be any missing,' said he.</p>
-
-            <p>'There are three missing. And you know where they are. Must I call you a liar as well as a thief? Did I
-                not see you trying to tear off another piece?'</p>
-
-            <p>'You have called me names enough,' said he, 'I will not stand it any longer. I shall not say another word
-                about this business, since you have chosen to insult me. I will leave your house in the morning and make
-                my own way in the world.'</p>
-
-            <p>'You shall leave it in the hands of the police!' I cried half-mad with grief and rage. 'I shall have this
-                matter probed to the bottom.'</p>
-
-            <p>'You shall learn nothing from me,' said he with a passion such as I should not have thought was in his
-                nature. 'If you choose to call the police, let the police find what they can.'</p>
-
-            <p>By this time the whole house was astir, for I had raised my voice in my anger. Mary was the first to rush
-                into my room, and, at the sight of the coronet and of Arthur's face, she read the whole story and, with
-                a scream, fell down senseless on the ground. I sent the house-maid for the police and put the
-                investigation into their hands at once. When the inspector and a constable entered the house, Arthur,
-                who had stood sullenly with his arms folded, asked me whether it was my intention to charge him with
-                theft. I answered that it had ceased to be a private matter, but had become a public one, since the
-                ruined coronet was national property. I was determined that the law should have its way in everything.
-            </p>
-
-            <p>'At least,' said he, 'you will not have me arrested at once. It would be to your advantage as well as
-                mine if I might leave the house for five minutes.'</p>
-
-            <p>'That you may get away, or perhaps that you may conceal what you have stolen,' said I. And then,
-                realising the dreadful position in which I was placed, I implored him to remember that not only my
-                honour but that of one who was far greater than I was at stake; and that he threatened to raise a
-                scandal which would convulse the nation. He might avert it all if he would but tell me what he had done
-                with the three missing stones.</p>
-
-            <p>'You may as well face the matter,' said I; 'you have been caught in the act, and no confession could make
-                your guilt more heinous. If you but make such reparation as is in your power, by telling us where the
-                beryls are, all shall be forgiven and forgotten.'</p>
-
-            <p>'Keep your forgiveness for those who ask for it,' he answered, turning away from me with a sneer. I saw
-                that he was too hardened for any words of mine to influence him. There was but one way for it. I called
-                in the inspector and gave him into custody. A search was made at once not only of his person but of his
-                room and of every portion of the house where he could possibly have concealed the gems; but no trace of
-                them could be found, nor would the wretched boy open his mouth for all our persuasions and our threats.
-                This morning he was removed to a cell, and I, after going through all the police formalities, have
-                hurried round to you to implore you to use your skill in unravelling the matter. The police have openly
-                confessed that they can at present make nothing of it. You may go to any expense which you think
-                necessary. I have already offered a reward of 1000 pounds. My God, what shall I do! I have lost my
-                honour, my gems, and my son in one night. Oh, what shall I do!"</p>
-
-            <p>He put a hand on either side of his head and rocked himself to and fro, droning to himself like a child
-                whose grief has got beyond words.</p>
-
-            <p>Sherlock Holmes sat silent for some few minutes, with his brows knitted and his eyes fixed upon the fire.
-            </p>
-
-            <p>Do you receive much company?" he asked.</p>
-
-            <p>None save my partner with his family and an occasional friend of Arthur's. Sir George Burnwell has been
-                several times lately. No one else, I think."</p>
-
-            <p>Do you go out much in society?"</p>
-        </article>
-        <!-- end of Sherlock Holmes story -->
-    </main>
-    <!-- end of main content -->
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <hr class="mobile-first">
-    <!-- start of contact form -->
-    <section id="contact" class="form-container">
-        <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
-                <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
+            <section class="images">
+                <div class="content">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/redSoloCup-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/redSoloCup-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/redSoloCup-small.jpg">
+                        <img src="images/redSoloCup-xsmall.jpg" alt="My red Solo cup!">
+                    </picture>
+                        <hr>      
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/glass-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/glass-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/glass-small.jpg">
+                        <img src="images/glass-xsmall.jpg" alt="My glass cup!">
+                    </picture>
+                        <hr>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/glassBottle-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/glassBottle-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/glassBottle-small.jpg">
+                        <img src="images/glassBottle-xsmall.jpg" alt="The best water of bottle ever!">
+                    </picture>
+                        <hr>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/aboutMe-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/aboutMe-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/aboutMe-small.jpg">
+                        <img src="images/aboutMe-xsmall.jpg" alt="A picture of me holding a big catch!">
+                    </picture>
+                </div>
+            </section>
+            <div class="back-to-top">
+                 <a href="#">Back to Top</a>
+            </div>
+            <article>
+                    <h1>Bunch of Gibberish</h1>
                     <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
+                        'In the course of this visit (1754), Johnson and I walked, three or four times, to Ellsfield, a village beautifully situated about three miles from Oxford, to see Mr. Wise, Radclivian librarian, with whom Johnson was much pleased. At this place, Mr. Wise had fitted up a house and gardens, in a singular manner, but with great taste. Here was an excellent library; particularly, a valuable collection of books in Northern literature, with which Johnson was often very busy. One day Mr. Wise read to us a dissertation which he was preparing for the press, intitled, "A History and Chronology of the fabulous Ages." Some old divinities of Thrace, related to the Titans, and called the CABIRI, made a very important part of the theory of this piece; and in conversation afterwards, Mr. Wise talked much of his CABIRI. As we returned to Oxford in the evening, I out-walked Johnson, and he cried out Sufflamina, a Latin word which came from his mouth with peculiar grace, and was as much as to say, Put on your drag chain. Before we got home, I again walked too fast for him; and he now cried out, "Why, you walk as if you were pursued by all the CABIRI in a body." In an evening, we frequently took long walks from Oxford into the country, returning to supper. Once, in our way home, we viewed the ruins of the abbies of Oseney and Rewley, near Oxford. After at least half an hour's silence, Johnson said, "I viewed them with indignation!" We had then a long conversation on Gothick buildings; and in talking of the form of old halls, he said, "In these halls, the fire place was anciently always in the middle of the room, till the Whigs removed it on one side."--About this time there had been an execution of two or three criminals at Oxford on a Monday. Soon afterwards, one day at dinner, I was saying that Mr. Swinton the chaplain of the gaol, and also a frequent preacher before the University, a learned man, but often thoughtless and absent, preached the condemnation-sermon on repentance, before the convicts, on the preceding day, Sunday; and that in the close he told his audience, that he should give them the remainder of what he had to say on the subject, the next Lord's Day. Upon which, one of our company, a Doctor of Divinity, and a plain matter-of-fact man, by way of offering an apology for Mr. Swinton, gravely remarked, that he had probably preached the same sermon before the University: "Yes, Sir, (says Johnson) but the University were not to be hanged the next morning."
                     </p>
-                    <br class="mobile-first"><br class="mobile-first">
+                    <p>
+                        'I forgot to observe before, that when he left Mr. Meeke, (as I have told above) he added, "About the same time of life, Meeke was left behind at Oxford to feed on a Fellowship, and I went to London to get my living: now, Sir, see the difference of our literary characters!"'
+                    </p>
+                    <p>
+                        The degree of Master of Arts, which, it has been observed, could not be obtained for him at an early period of his life, was now considered as an honour of considerable importance, in order to grace the title-page of his Dictionary; and his character in the literary world being by this time deservedly high, his friends thought that, if proper exertions were made, the University of Oxford would pay him the compliment.
+                    </p>
+                    <p>
+                        To THE REVEREND THOMAS WARTON.
+                    </p>
+                    <p>
+                        'DEAR SIR,--I am extremely sensible of the favour done me, both by Mr. Wise and yourself. The book cannot, I think, be printed in less than six weeks, nor probably so soon; and I will keep back the title-page, for such an insertion as you seem to promise me. . . .
+                    </p>
+                    <p>
+                        'I had lately the favour of a letter from your brother, with some account of poor Collins, for whom I am much concerned. I have a notion, that by very great temperance, or more properly abstinence, he may yet recover. . . .
+                    </p>
+                    <p>
+                        'You know poor Mr. Dodsley has lost his wife; I believe he is much affected. I hope he will not suffer so much as I yet suffer for the loss of mine.
+                    </p>
+                    <p>
+                        [Greek text omitted]
+                    </p>
+                    <p>
+                        I have ever since seemed to myself broken off from mankind; a kind of solitary wanderer in the wild of life, without any direction, or fixed point of view: a gloomy gazer on a world to which I have little relation. Yet I would endeavour, by the help of you and your brother, to supply the want of closer union, by friendship: and hope to have long the pleasure of being, dear Sir, most affectionately your's,
+                    </p>
+                    <p>
+                        '[London.] Dec. 21, 1754.'
+                    </p>
+                    <p>
+                        'SAM. JOHNSON.'
+                    </p>
+                    <p>
+                        1755: AETAT. 46.]--In 1755 we behold him to great advantage; his degree of Master of Arts conferred upon him, his Dictionary published, his correspondence animated, his benevolence exercised.
+                    </p>
+                    <p>
+                        Mr. Charles Burney, who has since distinguished himself so much in the science of Musick, and obtained a Doctor's degree from the University of Oxford, had been driven from the capital by bad health, and was now residing at Lynne Regis, in Norfolk. He had been so much delighted with Johnson's Rambler and the Plan of his Dictionary, that when the great work was announced in the news-papers as nearly finished,' he wrote to Dr. Johnson, begging to be informed when and in what manner his Dictionary would be published; intreating, if it should be by subscription, or he should have any books at his own disposal, to be favoured with six copies for himself and friends.
+                    </p>
+                    <p>
+                        In answer to this application, Dr. Johnson wrote the following letter, of which (to use Dr. Burney's own words) 'if it be remembered that it was written to an obscure young man, who at this time had not much distinguished himself even in his own profession, but whose name could never have reached the authour of The Rambler, the politeness and urbanity may be opposed to some of the stories which have been lately circulated of Dr. Johnson's natural rudeness and ferocity.'
+                    </p>
+                    <p>
+                        'TO MR. BURNEY, IN LYNNE REGIS, NORFOLK.
+                    </p>
+                    <p>
+                        'SIR,--If you imagine that by delaying my answer I intended to shew any neglect of the notice with which you have favoured me, you will neither think justly of yourself nor of me. Your civilities were offered with too much elegance not to engage attention; and I have too much pleasure in pleasing men like you, not to feel very sensibly the distinction which you have bestowed upon me.
+                    </p>
+                    <p>
+                        'Few consequences of my endeavours to please or to benefit mankind have delighted me more than your friendship thus voluntarily offered, which now I have it I hope to keep, because I hope to continue to deserve it.
+                    </p>
+                    <p>
+                        'I have no Dictionaries to dispose of for myself, but shall be glad to have you direct your friends to Mr. Dodsley, because it was by his recommendation that I was employed in the work.
+                    </p>
+                    <p>
+                        'When you have leisure to think again upon me, let me be favoured with another letter; and another yet, when you have looked into my Dictionary. If you find faults, I shall endeavour to mend them; if you find none, I shall think you blinded by kind partiality: but to have made you partial in his favour, will very much gratify the ambition of, Sir, your most obliged and most humble servant,
+                    </p>
+            </article>
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        </main>
+            <hr>
+        <section class="form-container">
+            <h1>Get in Touch</h1>
+            <form method="POST" action="https://formspree.io/michaelrivera2705@gmail.com">
+                <fieldset>
+                    <legend>Please Feel Free to Contact Me</legend>
+                        <label>Email</label> 
+                            <br>
+                        <input type="email" name="email" autofocus>
+                            <br>
+                            <br>
+                        <fieldset>
+                            <legend>I would like a reply</legend>
+                            <input type="radio" name="answer" value="yes"> Yes<br>
+                            <input type="radio" name="answer" value="no"> No<br>
+                        </fieldset>
+                            <br>
+                        <label>Message</label>
+                            <br>
+                        <textarea name="message"></textarea>
+                            <br>
+                            <br>
+                        <button type="submit">Send Message</button>
+                    
                 </fieldset>
             </form>
-        </div>
-    </section>
-    <!-- end of contact form -->
-    <!-- start of footer -->
-    <footer>
-        <br class="mobile-first"><br class="mobile-first">
-        <p> &copy; 2019 Lyan Kent</p>
-    </footer>
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <!-- end of footer -->
-    <br class="mobile-first"><br class="mobile-first">
-    <!-- start of javascript for nav toggle -->
-    <script>
+        </section>
+            <hr>
+        <section class="footer">
+            <div class="content">
+                <footer>
+                    This is my website &copy; 2019
+                </footer>
+            </div>
+        </section>
+     <script>
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
         let symbolToggle = document.getElementById('symbol-toggle');
@@ -285,8 +216,6 @@
                 symbolToggle.classList.add('fa-bars');
             }
         });
-    </script>
-    <!-- end of javascript for nav toggle -->
-</body>
-
+    </script>       
+    </body>
 </html>
