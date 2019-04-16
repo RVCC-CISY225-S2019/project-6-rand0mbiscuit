@@ -18,7 +18,7 @@
     <!-- skip link -->
     <a href="#main" class="skip">Skip to main</a>
     <!-- start of header -->
-    <header class="header">
+    <header id="header" class="header">
         <nav class="navbar">
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <i id="symbol-toggle" class="fas fa-bars"></i>
@@ -59,7 +59,7 @@
                 <p class="my-location">Branchburg, NJ</p>
             </div>
         </section>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="content">
                 <div class="about-content">
                     <p class="iama">I want to be...</p>
@@ -106,12 +106,15 @@
                     <figcaption>The best water of bottle ever!</figcaption>
                 </figure>
                 <hr>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/aboutMe-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/aboutMe-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/aboutMe-small.jpg">
-                    <img src="images/aboutMe-xsmall.jpg" alt="A picture of me holding a big catch!">
-                </picture>
+                <figure>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/aboutMe-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/aboutMe-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/aboutMe-small.jpg">
+                        <img src="images/aboutMe-xsmall.jpg" alt="A picture of me holding a big catch!">
+                    </picture>
+                    <figcaption>A picture of me holding a big catch!</figcaption>
+                </figure>
             </div>
         </section>
         <div class="back-to-top">
